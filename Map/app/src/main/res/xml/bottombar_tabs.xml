@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab1"
+        icon="@drawable/home"
+        title="Main" />
+    <tab
+        id="@+id/tab2"
+        icon="@drawable/ditu"
+        title="Gallery" />
+    <tab
+        id="@+id/tab3"
+        icon="@drawable/people"
+        title="My" />
+    <tab
+        id="@+id/tab4"
+        icon="@drawable/pinglun"
+        title="comment"/>
+</tabs>

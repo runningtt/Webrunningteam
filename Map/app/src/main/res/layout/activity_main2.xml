@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videos"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageButton
+        android:id="@+id/main_button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/home"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/search_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ditu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/main_button"
+        app:layout_constraintRight_toLeftOf="@id/comment_button"
+        app:layout_constraintHorizontal_weight="1"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/comment_button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/pinglun"
+        app:layout_constraintLeft_toRightOf="@id/search_button"
+        app:layout_constraintRight_toLeftOf="@id/home_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        />
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/people"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/comment_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

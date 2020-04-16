@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="me_homepage_username" type="id"></item>
+<item name="me_homepage" type="id"></item>
+<item name="me_exercise_time" type="id"></item>
+<item name="me_record_days" type="id"></item>
+<item name="me_item_comment" type="id"></item>
+<item name="me_item_reord" type="id"></item>
+<item name="me_item_favor" type="id"></item>
+<item name="me_item_exit" type="id"></item>
+    <item name="tab1" type="id"/>
+    <item name="tab2" type="id"/>
+    <item name="tab3" type="id"/>
+    <item name="tab4" type="id"/>
+</resources>
